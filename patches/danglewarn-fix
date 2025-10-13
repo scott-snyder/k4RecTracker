@@ -1,0 +1,6 @@
+Bottom: ca6b4511789536fd145286fac84ce92ad34cb7dc
+Top:    ca6b4511789536fd145286fac84ce92ad34cb7dc
+Author: sss <sss@karma>
+Date:   2025-10-13 17:03:32 -0400
+
+Fix dangling-reference warnings.
