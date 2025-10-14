@@ -1,9 +1,10 @@
 {
   "version": 5,
-  "prev": "cd76ad2dc8d2271d4ea2403689a5dd82d7944f29",
-  "head": "f5a0f11afe6cc6bcd342a307bd0c0879caed9d88",
+  "prev": "67023250d15fac197d7dfe3e14ea34a3ee6a6a4f",
+  "head": "760d6fd93358f40c991c4174f2fb6d9911e3e123",
   "applied": [
-    "danglewarn-fix"
+    "danglewarn-fix",
+    "ci"
   ],
   "unapplied": [
     "cmakewarn",
@@ -12,6 +13,9 @@
   ],
   "hidden": [],
   "patches": {
+    "ci": {
+      "oid": "760d6fd93358f40c991c4174f2fb6d9911e3e123"
+    },
     "cmakewarn": {
       "oid": "87f99e996fc481270e4e8ee7f5132832cb9911b0"
     },
