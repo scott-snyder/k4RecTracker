@@ -1,12 +1,13 @@
 {
   "version": 5,
-  "prev": "ad40cb916651beced3e885ec5de973dd25885470",
-  "head": "4a46d1e16e27d015baf71f07ec5b6a5dfa55e83b",
-  "applied": [],
+  "prev": "cd76ad2dc8d2271d4ea2403689a5dd82d7944f29",
+  "head": "f5a0f11afe6cc6bcd342a307bd0c0879caed9d88",
+  "applied": [
+    "danglewarn-fix"
+  ],
   "unapplied": [
     "cmakewarn",
     "warn",
-    "danglewarn-fix",
     "danglewarn"
   ],
   "hidden": [],
@@ -18,7 +19,7 @@
       "oid": "f519f9067685366d1c2dc468164cc654e8544065"
     },
     "danglewarn-fix": {
-      "oid": "fe5151f5ccb6116810aac6a4dc140f6c4975cf65"
+      "oid": "f5a0f11afe6cc6bcd342a307bd0c0879caed9d88"
     },
     "warn": {
       "oid": "19350ed24e62a88e55ec233c358a113f7d0c836e"
