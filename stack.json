@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "2ae34b59d4c9d739d9a2086cc6c6278c7417ef5c",
-  "head": "4f3b94dc80092dc157dbde5632cc6ceecf75e29a",
+  "prev": "022413b0f8f7bab3632692405c1f7180ef9c7a8a",
+  "head": "877ffa156c6923bb9f0e520a58aae19fc2856976",
   "applied": [
     "danglewarn-fix",
     "ci"
@@ -14,7 +14,7 @@
   "hidden": [],
   "patches": {
     "ci": {
-      "oid": "4f3b94dc80092dc157dbde5632cc6ceecf75e29a"
+      "oid": "877ffa156c6923bb9f0e520a58aae19fc2856976"
     },
     "cmakewarn": {
       "oid": "87f99e996fc481270e4e8ee7f5132832cb9911b0"
@@ -23,7 +23,7 @@
       "oid": "f519f9067685366d1c2dc468164cc654e8544065"
     },
     "danglewarn-fix": {
-      "oid": "f5a0f11afe6cc6bcd342a307bd0c0879caed9d88"
+      "oid": "e34f21c3f9be40a224e4854efff1a30c7d7df725"
     },
     "warn": {
       "oid": "19350ed24e62a88e55ec233c358a113f7d0c836e"
