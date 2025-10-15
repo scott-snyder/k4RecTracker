@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "399253281dfe33116d290c7a67001937af1619fb",
-  "head": "9d40af642b9889c5bcbaf19b282344a7b3c048c7",
+  "prev": "648e1381173bd39b8495b2bd3bac46c2f6ffc4bc",
+  "head": "bd1ed65a378778879e4514ba5c0013788c15905c",
   "applied": [
     "danglewarn-fix",
     "ci",
@@ -16,16 +16,16 @@
       "oid": "877ffa156c6923bb9f0e520a58aae19fc2856976"
     },
     "cmakewarn": {
-      "oid": "9beae7d1301b4550273326126ec557cec03839c6"
+      "oid": "85f551ddf45ead9b57fc1cd423ee8e6617cc167a"
     },
     "danglewarn": {
-      "oid": "9d40af642b9889c5bcbaf19b282344a7b3c048c7"
+      "oid": "bd1ed65a378778879e4514ba5c0013788c15905c"
     },
     "danglewarn-fix": {
       "oid": "e34f21c3f9be40a224e4854efff1a30c7d7df725"
     },
     "warn": {
-      "oid": "e04617a19216bc42796045149994f86829db3a9c"
+      "oid": "648e8024b1813c83ccc3f51a83b6b95fa1988321"
     }
   }
 }
