@@ -1,6 +1,8 @@
 Bottom: 3a8d7c954d119027e957cec3169647b3f64e4328
 Top:    ca6b4511789536fd145286fac84ce92ad34cb7dc
 Author: sss <sss@karma>
-Date:   2025-10-13 17:02:23 -0400
+Date:   2025-10-14 23:12:31 -0400
 
-Fix warnings.
+Fix compilation warning seen with clang.
+
+Unused variable.

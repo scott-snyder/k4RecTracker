@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "prev": "022413b0f8f7bab3632692405c1f7180ef9c7a8a",
+  "prev": "7a18e8934bb2b7df501151fefb92edf2c62a425b",
   "head": "877ffa156c6923bb9f0e520a58aae19fc2856976",
   "applied": [
     "danglewarn-fix",
@@ -26,7 +26,7 @@
       "oid": "e34f21c3f9be40a224e4854efff1a30c7d7df725"
     },
     "warn": {
-      "oid": "19350ed24e62a88e55ec233c358a113f7d0c836e"
+      "oid": "d6759ea413d4f2fbaf664ffeafcf01e1d71916d0"
     }
   }
 }
