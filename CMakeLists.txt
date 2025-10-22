@@ -33,6 +33,16 @@ find_package(GSL REQUIRED)
 find_package(PandoraSDK REQUIRED)
 
 find_package(onnxruntime REQUIRED)
+
+find_package(HIP REQUIRED COMPONENTS)
+find_package(Caffe2 REQUIRED)
+find_package(hiprtc REQUIRED)
+find_package(hipblaslt REQUIRED)
+find_package(hipblas REQUIRED)
+find_package(hipfft REQUIRED)
+find_package(hiprand REQUIRED)
+find_package(hipsparse REQUIRED)
+find_package(hipsolver REQUIRED)
 find_package(Torch REQUIRED)
 
 include(cmake/Key4hepConfig.cmake)
