@@ -128,7 +128,7 @@ struct GGTF_tracking final :
             
             }) {m_geoSvc = serviceLocator()->service(m_geoSvcName);}
     
-    StatusCode initialize() {
+    virtual StatusCode initialize() override {
 
         ///////////////////////////////
         ///// ONNX Initialization /////
@@ -443,7 +443,7 @@ struct GGTF_tracking final :
 
     } 
 
-    StatusCode finalize() {     
+    virtual StatusCode finalize() override {
         
         info() << "Run report:" << endmsg;
         info() << "Number of analysed events: " << m_indexCounter << endmsg;
