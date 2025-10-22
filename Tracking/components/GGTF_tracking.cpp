@@ -128,7 +128,7 @@ struct GGTF_tracking final : k4FWCore::MultiTransformer<std::tuple<extension::Tr
     m_geoSvc = serviceLocator()->service(m_geoSvcName);
   }
 
-  StatusCode initialize() {
+  virtual StatusCode initialize() override {
 
     ///////////////////////////////
     ///// ONNX Initialization /////
