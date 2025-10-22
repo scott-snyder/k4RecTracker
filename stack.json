@@ -1,12 +1,11 @@
 {
   "version": 5,
-  "prev": "5d1add4b89cfb38a8dacb0a73bcb605e7cf4e060",
-  "head": "397c29f7d57ed5dadcd55b7279abe7570a18b419",
+  "prev": "977de27e385c097b04e843c495ad1cb8519277f2",
+  "head": "4d814fb07a16dd35c6572aa70f8c26ca844561d3",
   "applied": [
     "ci",
     "danglewarn",
-    "torchlocal",
-    "refresh-temp"
+    "torchlocal"
   ],
   "unapplied": [],
   "hidden": [],
@@ -17,11 +16,8 @@
     "danglewarn": {
       "oid": "ffb67b0ee4c0407c06d779d28b6ee4363d78a2a5"
     },
-    "refresh-temp": {
-      "oid": "397c29f7d57ed5dadcd55b7279abe7570a18b419"
-    },
     "torchlocal": {
-      "oid": "7367962444939207e0b59b4426db3981bef6fc6d"
+      "oid": "4d814fb07a16dd35c6572aa70f8c26ca844561d3"
     }
   }
 }
