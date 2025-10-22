@@ -1,18 +1,22 @@
 {
   "version": 5,
-  "prev": "7966f9f7660b5cec7fe4c7803ac422ff074f2112",
-  "head": "52bc25a9d126e1eba7233dda188cfed7ab6afda2",
+  "prev": "0c1731848ca935af42ef0431ac90351a529f905e",
+  "head": "897127fe75fdf849953ddf2ef8e8a5d82879e191",
   "applied": [
     "ci",
     "danglewarn",
     "torchlocal",
-    "nodownload"
+    "nodownload",
+    "clang"
   ],
   "unapplied": [],
   "hidden": [],
   "patches": {
     "ci": {
       "oid": "2d6e6a95fff875ec3d317362c9dc1136ce65c234"
+    },
+    "clang": {
+      "oid": "897127fe75fdf849953ddf2ef8e8a5d82879e191"
     },
     "danglewarn": {
       "oid": "ffb67b0ee4c0407c06d779d28b6ee4363d78a2a5"
