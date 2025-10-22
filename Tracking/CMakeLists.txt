@@ -28,6 +28,10 @@ file(GLOB headers
   ${PROJECT_SOURCE_DIR}/include/*.h
 )
 
+# torch clobbers the c++ standard.  Use this to clobber back.
+add_library (dum INTERFACE)
+target_compile_options(dum INTERFACE "--std=c++${CMAKE_CXX_STANDARD}")
+
 gaudi_add_module(${PackageName}
   SOURCES ${sources}
   LINK
@@ -42,6 +46,7 @@ gaudi_add_module(${PackageName}
   DD4hep::DDCore
   #GenFit::genfit2
   ${DELPHES_LIBRARIES}
+  dum
 )
 
 target_include_directories(${PackageName} PUBLIC
