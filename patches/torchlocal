@@ -1,0 +1,6 @@
+Bottom: cf4f1d089f6c7542bb26aee8581f0585a70921ba
+Top:    cf4f1d089f6c7542bb26aee8581f0585a70921ba
+Author: sss <sss@karma>
+Date:   2025-10-22 13:53:04 -0400
+
+Hacks for building against fedora42 torch package.
