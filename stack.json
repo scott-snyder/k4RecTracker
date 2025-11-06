@@ -1,9 +1,31 @@
 {
   "version": 5,
-  "prev": null,
-  "head": "57df7965c6a83e80ed41aeab3d2ec7dae10d6d30",
-  "applied": [],
+  "prev": "e129eabf98ac6f8c8c701dfc1e82410fef8b2cf3",
+  "head": "8462800e67fdf7c0a4f7fa13f244283d56d2ea00",
+  "applied": [
+    "ci",
+    "danglewarn",
+    "torchlocal",
+    "nodownload",
+    "clang"
+  ],
   "unapplied": [],
   "hidden": [],
-  "patches": {}
+  "patches": {
+    "ci": {
+      "oid": "32eb7ae17b6bf88c433fd7ae66bfe4e61d6cc26e"
+    },
+    "clang": {
+      "oid": "8462800e67fdf7c0a4f7fa13f244283d56d2ea00"
+    },
+    "danglewarn": {
+      "oid": "f4eaa833bdfb735d52d3b06d15ba78c959e001fe"
+    },
+    "nodownload": {
+      "oid": "c7e77dc8f1fbe7ad539d898a9e19f6d5d48fd6f7"
+    },
+    "torchlocal": {
+      "oid": "a38d46a20c0371cfb0300c02ff8b4ea53283ecf2"
+    }
+  }
 }
