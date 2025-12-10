@@ -437,7 +437,7 @@ struct GGTF_tracking final : k4FWCore::MultiTransformer<std::tuple<extension::Tr
     return std::make_tuple(std::move(outputTracks));
   }
 
-  StatusCode finalize() {
+  virtual StatusCode finalize() override {
 
     info() << "Run report:" << endmsg;
     info() << "Number of analysed events: " << m_indexCounter << endmsg;
