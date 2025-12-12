@@ -1,3 +1,7 @@
+#if __GNUC__ >= 16
+# pragma GCC diagnostic ignored "-Warray-bounds"
+#endif
+
 // Gaudi
 #include "Gaudi/Accumulators/RootHistogram.h"
 #include "Gaudi/Histograming/Sink/Utils.h"
