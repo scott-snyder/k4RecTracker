@@ -1,14 +1,15 @@
 {
   "version": 5,
-  "prev": "8e2957be60a2b9a8c3283fb973e4aa50f76c30f8",
-  "head": "756a443ece129f3ebabdc1837d9e5b1c8cfc1b99",
+  "prev": "d179832a4238ca34cf3404ff3d2c43e70e7d0053",
+  "head": "15133fdfdeaf5f01a543a4413fdb2ea277f3be5e",
   "applied": [
     "ci",
     "danglewarn",
     "torchlocal",
     "nodownload",
     "clang",
-    "gccbug-newxx"
+    "gccbug-newxx",
+    "cxx26"
   ],
   "unapplied": [],
   "hidden": [],
@@ -18,6 +19,9 @@
     },
     "clang": {
       "oid": "d29788265d39415e464c2529039ba7692f42b5b3"
+    },
+    "cxx26": {
+      "oid": "15133fdfdeaf5f01a543a4413fdb2ea277f3be5e"
     },
     "danglewarn": {
       "oid": "7b49172fbb7048833d8ef68a2bad037886b25bef"
