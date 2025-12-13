@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "5c4ea465c6a9bf4f19185af32a84a88edc6a411a",
-  "head": "faa077d6768e958813393e694ef4b7e6bce1eec6",
+  "prev": "2cfa9b74144b1c5b1a4992413aa2f520d59cf4c2",
+  "head": "87283d730e228eebfac2d5f6e7cda95526a1a8f4",
   "applied": [
     "ci",
     "danglewarn",
@@ -9,8 +9,7 @@
     "nodownload",
     "clang",
     "gccbug-newxx",
-    "cxx26",
-    "refresh-temp"
+    "cxx26"
   ],
   "unapplied": [],
   "hidden": [],
@@ -22,7 +21,7 @@
       "oid": "d29788265d39415e464c2529039ba7692f42b5b3"
     },
     "cxx26": {
-      "oid": "15133fdfdeaf5f01a543a4413fdb2ea277f3be5e"
+      "oid": "87283d730e228eebfac2d5f6e7cda95526a1a8f4"
     },
     "danglewarn": {
       "oid": "7b49172fbb7048833d8ef68a2bad037886b25bef"
@@ -32,9 +31,6 @@
     },
     "nodownload": {
       "oid": "b25c204a9a67dd637bea20e30ecc22f2f2cfd66d"
-    },
-    "refresh-temp": {
-      "oid": "faa077d6768e958813393e694ef4b7e6bce1eec6"
     },
     "torchlocal": {
       "oid": "a05271b59cf13296cd695c903940a161c260b2d3"
