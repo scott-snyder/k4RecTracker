@@ -1,15 +1,12 @@
 {
   "version": 5,
-  "prev": "5cc32ea597bb002494335a5eaf2f83aec9c740c6",
-  "head": "a292ebf2a359dc05c3cae451f3d0c0c62a70571f",
+  "prev": "692f2485cd758b39600f3117ce7f803f2216c845",
+  "head": "bf7112894dccc59a62504ce2f7ca148ab44ba65e",
   "applied": [
     "ci",
-    "danglewarn",
     "torchlocal",
     "nodownload",
-    "clang",
-    "gccbug-newxx",
-    "cxx26"
+    "gccbug-newxx"
   ],
   "unapplied": [],
   "hidden": [],
@@ -17,23 +14,14 @@
     "ci": {
       "oid": "46ae46405a3ca14fe3d8ec27fcc3ff3ffb0caa93"
     },
-    "clang": {
-      "oid": "b6df00a9df04390572a7ce3010872528cad7157c"
-    },
-    "cxx26": {
-      "oid": "a292ebf2a359dc05c3cae451f3d0c0c62a70571f"
-    },
-    "danglewarn": {
-      "oid": "c4b673bb4ecaf77d24257e2138ec4c8e7c508d2d"
-    },
     "gccbug-newxx": {
-      "oid": "0bbdb5ad73af00df38a49790df8ab7d1ab23c2ef"
+      "oid": "bf7112894dccc59a62504ce2f7ca148ab44ba65e"
     },
     "nodownload": {
-      "oid": "778cc8ad6ed489a11ef5300873e1f553fbe8b5b4"
+      "oid": "22959200871be4b903a7574dc02a5cb99e16e2f4"
     },
     "torchlocal": {
-      "oid": "f0740f2f3abcd54506181f4db47fd9a5118af2ab"
+      "oid": "be5b2464261aa1f10063eb8516ab858f96626f1c"
     }
   }
 }
