@@ -1,8 +1,9 @@
 {
   "version": 5,
-  "prev": "2cfa9b74144b1c5b1a4992413aa2f520d59cf4c2",
-  "head": "87283d730e228eebfac2d5f6e7cda95526a1a8f4",
-  "applied": [
+  "prev": "bef8a42239c20359a7af209bd1c739e1124ec680",
+  "head": "d99d30af70a8b6115171254f8db7326a84cacc06",
+  "applied": [],
+  "unapplied": [
     "ci",
     "danglewarn",
     "torchlocal",
@@ -11,7 +12,6 @@
     "gccbug-newxx",
     "cxx26"
   ],
-  "unapplied": [],
   "hidden": [],
   "patches": {
     "ci": {
