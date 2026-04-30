@@ -1,0 +1,6 @@
+Bottom: 7cb606ab85ecda41d6c36329cf147e7936f055e0
+Top:    7cb606ab85ecda41d6c36329cf147e7936f055e0
+Author: sss <sss@karma>
+Date:   2026-04-29 22:31:42 -0400
+
+Use standard std::format rather than fmt::format.
