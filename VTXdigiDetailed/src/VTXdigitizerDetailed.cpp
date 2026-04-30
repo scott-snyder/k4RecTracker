@@ -1,7 +1,7 @@
 #include "VTXdigitizerDetailed.h"
 #include "DD4hep/DetFactoryHelper.h"
 #include "DD4hep/Readout.h"
-#include "fmt/format.h"
+#include <format>
 
 DECLARE_COMPONENT(VTXdigitizerDetailed)
 
@@ -171,7 +171,7 @@ StatusCode VTXdigitizerDetailed::initialize() {
 
   if (!surfaceMap) {
     throw std::runtime_error(
-        fmt::format("Could not find surface map for detector: {} in SurfaceManager", m_detectorName.value()));
+        std::format("Could not find surface map for detector: {} in SurfaceManager", m_detectorName.value()));
   }
 
   // retrieve the volume manager
@@ -299,7 +299,7 @@ void VTXdigitizerDetailed::GetNormalVectorLocal(const edm4hep::SimTrackerHit& in
   dd4hep::rec::SurfaceMap::const_iterator sI = surfaceMap->find(reduced_cellID);
   if (sI == surfaceMap->end()) {
     throw std::runtime_error(
-        fmt::format("VTXdigitizerDetailed::operator(): no surface found for cellID : {}", reduced_cellID));
+        std::format("VTXdigitizerDetailed::operator(): no surface found for cellID : {}", reduced_cellID));
   }
   const dd4hep::rec::ISurface* surf = sI->second;
   // normal vector is by default in global frame
