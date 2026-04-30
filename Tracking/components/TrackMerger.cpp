@@ -32,6 +32,7 @@
 #include <cmath>
 #include <string>
 #include <utility>
+#include <format>
 
 #include <utils.h>
 
@@ -146,7 +147,7 @@ struct TrackMerger final : k4FWCore::Transformer<TrackColl(const TrackColl&, con
         // compare trackInner and trackOuter at their respective track states (Inner: last hit, Outer: first hit)
         // to determine if they likely originate from the same particle
         if (isMatch(trackInner, TS::AtLastHit, trackOuter, TS::AtFirstHit)) {
-          debug() << fmt::format("  [MATCH] Inner track {} matched with Outer track {}. Creating merged track.", iInner,
+          debug() << std::format("  [MATCH] Inner track {} matched with Outer track {}. Creating merged track.", iInner,
                                  iOuter)
                   << endmsg;
 
@@ -171,12 +172,12 @@ struct TrackMerger final : k4FWCore::Transformer<TrackColl(const TrackColl&, con
       }
 
       if (!matched) {
-        debug() << fmt::format("  [INFO] Inner track {} found no matching outer track within tolerances.", iInner)
+        debug() << std::format("  [INFO] Inner track {} found no matching outer track within tolerances.", iInner)
                 << endmsg;
       }
     }
 
-    debug() << fmt::format(
+    debug() << std::format(
                    "Event processing complete. Created {} merged tracks from {} InnerTracks and {} OuterTracks.",
                    outTracks.size(), inputInnerTracks.size(), inputOuterTracks.size())
             << endmsg;
@@ -191,7 +192,7 @@ private:
 
     if (!ts1.has_value() || !ts2.has_value()) {
       // It's common for some tracks to lack specific states; verbose instead of debug to avoid spam
-      warning() << fmt::format("    [SKIP] Missing requested states (Loc1: {}, Loc2: {})", static_cast<int>(loc1),
+      warning() << std::format("    [SKIP] Missing requested states (Loc1: {}, Loc2: {})", static_cast<int>(loc1),
                                static_cast<int>(loc2))
                 << endmsg;
       return false;
@@ -238,7 +239,7 @@ private:
                        withinTolerance(phi_value, phiCut) && withinTolerance(omega_value, omegaCut) &&
                        withinTolerance(tanLambda_value, tanLambdaCut);
 
-    debug() << fmt::format("Comparing Loc {} vs {} ({}): d0={:.4f}, z0={:.4f}, phi={:.4f}, omega={:.4f}, "
+    debug() << std::format("Comparing Loc {} vs {} ({}): d0={:.4f}, z0={:.4f}, phi={:.4f}, omega={:.4f}, "
                            "tanLambda={:.4f} -> Match: {}",
                            static_cast<int>(loc1), static_cast<int>(loc2),
                            m_useSignificance ? "significance" : "absolute", d0_value, z0_value, phi_value, omega_value,
