@@ -1,11 +1,12 @@
 {
   "version": 5,
-  "prev": "eb5694b565989016daa77b18949e5be31c4ed36e",
-  "head": "a261ce29b1eaeb561a1e3c4c2e0876a7bf5e0ba2",
-  "applied": [],
-  "unapplied": [
+  "prev": "824bff78e2e29c0279a2db469cef971c63172fd6",
+  "head": "c4b673bb4ecaf77d24257e2138ec4c8e7c508d2d",
+  "applied": [
     "ci",
-    "danglewarn",
+    "danglewarn"
+  ],
+  "unapplied": [
     "torchlocal",
     "nodownload",
     "clang",
@@ -15,7 +16,7 @@
   "hidden": [],
   "patches": {
     "ci": {
-      "oid": "8ce1d84265d86d91ef139d2253e4a7cfc2305bb2"
+      "oid": "46ae46405a3ca14fe3d8ec27fcc3ff3ffb0caa93"
     },
     "clang": {
       "oid": "d29788265d39415e464c2529039ba7692f42b5b3"
@@ -24,7 +25,7 @@
       "oid": "87283d730e228eebfac2d5f6e7cda95526a1a8f4"
     },
     "danglewarn": {
-      "oid": "7b49172fbb7048833d8ef68a2bad037886b25bef"
+      "oid": "c4b673bb4ecaf77d24257e2138ec4c8e7c508d2d"
     },
     "gccbug-newxx": {
       "oid": "756a443ece129f3ebabdc1837d9e5b1c8cfc1b99"
