@@ -1,6 +1,7 @@
 #include "VTXdigitizerDetailed.h"
 #include "DD4hep/DetFactoryHelper.h"
 #include "DD4hep/Readout.h"
+#include "fmt/format.h"
 
 DECLARE_COMPONENT(VTXdigitizerDetailed)
 
