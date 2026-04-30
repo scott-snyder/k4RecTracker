@@ -1,14 +1,15 @@
 {
   "version": 5,
-  "prev": "3cc734169790cc75d718b47d25a6fbb128ff9c2e",
-  "head": "9411e776ae14dee83d6bfd4e7a665192ef05a0db",
+  "prev": "7ea25ddfef8dc8e518c1f0171678884b3e2692fc",
+  "head": "f3f714f057e5f21481370503daa062b8988148ba",
   "applied": [
     "ci",
     "torchlocal",
     "nodownload",
     "gccbug-newxx",
     "include",
-    "stdfmt"
+    "stdfmt",
+    "refresh-temp"
   ],
   "unapplied": [],
   "hidden": [],
@@ -24,6 +25,9 @@
     },
     "nodownload": {
       "oid": "22959200871be4b903a7574dc02a5cb99e16e2f4"
+    },
+    "refresh-temp": {
+      "oid": "f3f714f057e5f21481370503daa062b8988148ba"
     },
     "stdfmt": {
       "oid": "9411e776ae14dee83d6bfd4e7a665192ef05a0db"
