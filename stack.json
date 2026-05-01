@@ -1,35 +1,36 @@
 {
   "version": 5,
-  "prev": "69daf68ea464de27072c431951075a82b675083b",
-  "head": "7f27d1f874e6206719031c07d1d28fc0f794f279",
+  "prev": "3ef599f88b31a2fc9891f2fd67c9a6d690026247",
+  "head": "b00f77a481ff4ce0f505df2f1bd1f24fa0f9557b",
   "applied": [
-    "ci",
     "torchlocal",
     "nodownload",
     "gccbug-newxx",
     "include",
     "stdfmt"
   ],
-  "unapplied": [],
+  "unapplied": [
+    "ci"
+  ],
   "hidden": [],
   "patches": {
     "ci": {
       "oid": "46ae46405a3ca14fe3d8ec27fcc3ff3ffb0caa93"
     },
     "gccbug-newxx": {
-      "oid": "bf7112894dccc59a62504ce2f7ca148ab44ba65e"
+      "oid": "803424c3cb5a2623969f93d8ea005dd6dbbccc11"
     },
     "include": {
-      "oid": "6e9c2052688906e4624f0f4df90053390374c120"
+      "oid": "d9e9b4b6ce05573c004cef355b0bd51ff0a57273"
     },
     "nodownload": {
-      "oid": "22959200871be4b903a7574dc02a5cb99e16e2f4"
+      "oid": "d3cbee3e069d25e0192719491037559992b7684d"
     },
     "stdfmt": {
-      "oid": "7f27d1f874e6206719031c07d1d28fc0f794f279"
+      "oid": "b00f77a481ff4ce0f505df2f1bd1f24fa0f9557b"
     },
     "torchlocal": {
-      "oid": "be5b2464261aa1f10063eb8516ab858f96626f1c"
+      "oid": "e873416410d3ce3dc83b0a79860bf9a81c0ea42c"
     }
   }
 }
