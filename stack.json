@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "prev": "3ef599f88b31a2fc9891f2fd67c9a6d690026247",
+  "prev": "d76b23103e8eb028c3a8226f6ffe53abf10f5eb7",
   "head": "b00f77a481ff4ce0f505df2f1bd1f24fa0f9557b",
   "applied": [
     "torchlocal",
@@ -9,10 +9,10 @@
     "include",
     "stdfmt"
   ],
-  "unapplied": [
+  "unapplied": [],
+  "hidden": [
     "ci"
   ],
-  "hidden": [],
   "patches": {
     "ci": {
       "oid": "46ae46405a3ca14fe3d8ec27fcc3ff3ffb0caa93"
