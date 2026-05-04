@@ -70,7 +70,7 @@ public:
                           bool varField = true) override;
 
   void setMinSafetyDistanceCut(double safeDistCut = 1e-7) { m_safeDistCut = safeDistCut; }
-  virtual void setDebugLvl(unsigned int lvl = 1) { debugLvl_ = lvl; }
+  virtual void setDebugLvl(unsigned int lvl = 1) override { debugLvl_ = lvl; }
 
 private:
   static GenfitMaterialInterface* m_instance;
