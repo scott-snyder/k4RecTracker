@@ -1,13 +1,14 @@
 {
   "version": 5,
-  "prev": "d76b23103e8eb028c3a8226f6ffe53abf10f5eb7",
-  "head": "b00f77a481ff4ce0f505df2f1bd1f24fa0f9557b",
+  "prev": "729a01ebe932da61e434ebb577f864d17893ce13",
+  "head": "cbc96f66e70507d60a2ec492509afa458a68791e",
   "applied": [
     "torchlocal",
     "nodownload",
     "gccbug-newxx",
     "include",
-    "stdfmt"
+    "stdfmt",
+    "clang"
   ],
   "unapplied": [],
   "hidden": [
@@ -16,6 +17,9 @@
   "patches": {
     "ci": {
       "oid": "46ae46405a3ca14fe3d8ec27fcc3ff3ffb0caa93"
+    },
+    "clang": {
+      "oid": "cbc96f66e70507d60a2ec492509afa458a68791e"
     },
     "gccbug-newxx": {
       "oid": "803424c3cb5a2623969f93d8ea005dd6dbbccc11"
