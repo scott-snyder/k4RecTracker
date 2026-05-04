@@ -112,7 +112,7 @@ struct GenfitTrackFitter final
 
                          }) {}
 
-  StatusCode initialize() {
+  virtual StatusCode initialize() override {
 
     // Initialize printout level for debug information
     m_printoutLevel = msgLevel();
@@ -410,7 +410,7 @@ struct GenfitTrackFitter final
     return std::make_tuple(std::move(FittedTracks), std::move(FittedTracksWithFilteredHits), std::move(FittedHits));
   }
 
-  StatusCode finalize() {
+  virtual StatusCode finalize() override {
 
     info() << "Run report:" << endmsg;
     info() << "Number of tracks: " << num_tracks << endmsg;
