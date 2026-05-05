@@ -17,6 +17,7 @@ FOREACH( pkg  MarlinUtil PandoraSDK )
     ADD_DEFINITIONS ( ${${pkg}_DEFINITIONS} )
   ENDIF()
 ENDFOREACH()
+LINK_LIBRARIES( PandoraPFA::PandoraSDK )
 
 file(GLOB sources
     ${PROJECT_SOURCE_DIR}/src/*.cpp
