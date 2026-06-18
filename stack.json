@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "2e3d91a07989f126e473ed378f62f3f67238f5f4",
-  "head": "9ede7de00bd13cfcb1ef6aa3a21d0e96e85b8784",
+  "prev": "e583c99b770250ca658467e2ba3703c836c0fb89",
+  "head": "575f20065ae35869eb8b6103922d3024542121bc",
   "applied": [
     "torchlocal",
     "nodownload",
@@ -9,7 +9,8 @@
     "include",
     "stdfmt",
     "clang",
-    "pandora"
+    "pandora",
+    "geoConst"
   ],
   "unapplied": [],
   "hidden": [
@@ -24,6 +25,9 @@
     },
     "gccbug-newxx": {
       "oid": "9790fab7a2a90ff768b38dd5e5d292f1a750864a"
+    },
+    "geoConst": {
+      "oid": "575f20065ae35869eb8b6103922d3024542121bc"
     },
     "include": {
       "oid": "6e261177a4b16bdbd0fdb701ae60065dd503d2e5"
