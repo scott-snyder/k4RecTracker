@@ -446,7 +446,7 @@ private:
 
   // ====================== Geometry & Detector ======================
   ServiceHandle<IGeoSvc> m_geoSvc{this, "GeoSvc", "GeoSvc", "Detector geometry service"};
-  dd4hep::Detector* m_detector{nullptr}; // Detector instance
+  const dd4hep::Detector* m_detector{nullptr}; // Detector instance
 
   std::unique_ptr<GenfitInterface::GenfitField> m_genfitField;
   genfit::FieldManager* m_fieldManager;
