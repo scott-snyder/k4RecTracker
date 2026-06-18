@@ -1,6 +1,6 @@
 Bottom: 81d276440bcd9df90d199339680bdacb231be76d
-Top:    4a7de3414e4b34b0ec7f8683ae170e91dfaaa251
+Top:    9388a97015abf4bf4ee9feda999006b575bc93f3
 Author: sss <sss@karma>
-Date:   2026-06-17 22:46:35 -0400
+Date:   2026-06-17 23:19:08 -0400
 
 Hacks for building against fedora42 torch package.
