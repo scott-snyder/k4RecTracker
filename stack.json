@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "8ba42e97054be67dadb9deedb4e860ebac8b030b",
-  "head": "ba85fcea6163f7ab38c7a331bf11a2ad06371963",
+  "prev": "b49ba0ac6dc2a70b8211aa60c9f737a59f1d04a7",
+  "head": "8a16a20dac4a9ebfe5ad3304d5ce03d5aeb231ac",
   "applied": [
     "torchlocal",
     "nodownload",
@@ -10,8 +10,7 @@
     "stdfmt",
     "clang",
     "pandora",
-    "geoConst",
-    "refresh-temp"
+    "geoConst"
   ],
   "unapplied": [],
   "hidden": [
@@ -28,7 +27,7 @@
       "oid": "9790fab7a2a90ff768b38dd5e5d292f1a750864a"
     },
     "geoConst": {
-      "oid": "575f20065ae35869eb8b6103922d3024542121bc"
+      "oid": "8a16a20dac4a9ebfe5ad3304d5ce03d5aeb231ac"
     },
     "include": {
       "oid": "6e261177a4b16bdbd0fdb701ae60065dd503d2e5"
@@ -38,9 +37,6 @@
     },
     "pandora": {
       "oid": "9ede7de00bd13cfcb1ef6aa3a21d0e96e85b8784"
-    },
-    "refresh-temp": {
-      "oid": "ba85fcea6163f7ab38c7a331bf11a2ad06371963"
     },
     "stdfmt": {
       "oid": "42eedf641c6c8e0f59abbda563e8579855c2df01"
