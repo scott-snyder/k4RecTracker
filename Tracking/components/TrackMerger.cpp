@@ -169,7 +169,7 @@ private:
   static bool withinTolerance(float diff, float tolerance) { return tolerance < 0.f || diff <= tolerance; }
 
   std::optional<TS> getTrackState(Track track, const int loc) const {
-    auto ts = track.getTrackState(loc);
+    auto ts = track.getTrackState(static_cast<edm4hep::TrackState::Location>(loc));
     if (!ts.has_value()) {
       warning() << std::format("No track state at location {} found!", loc) << endmsg;
     }
