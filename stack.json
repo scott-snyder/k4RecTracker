@@ -1,10 +1,9 @@
 {
   "version": 5,
-  "prev": "b453efea05e7147e85a85f7f1e67e4f2c2c62565",
-  "head": "da3ce8ab196aad87d457c4a2e0673c1291f7c758",
+  "prev": "2d7c73c248ac258a8863544b6b5b1dbe905b7401",
+  "head": "433cbddabb565427d8aec51fcbde78ebd2db795d",
   "applied": [
-    "torchlocal",
-    "refresh-temp"
+    "torchlocal"
   ],
   "unapplied": [
     "nodownload",
@@ -40,14 +39,11 @@
     "pandora": {
       "oid": "50b89b5263ccd7e10b58975856fb607cbce114c3"
     },
-    "refresh-temp": {
-      "oid": "da3ce8ab196aad87d457c4a2e0673c1291f7c758"
-    },
     "stdfmt": {
       "oid": "b70f98cd1e7badb6afc95533a83c4534424a776f"
     },
     "torchlocal": {
-      "oid": "81146abe9cc3c3b29df2e2bc6f03dff8f1f85b20"
+      "oid": "433cbddabb565427d8aec51fcbde78ebd2db795d"
     }
   }
 }
