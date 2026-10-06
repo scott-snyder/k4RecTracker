@@ -1,19 +1,18 @@
 {
   "version": 5,
-  "prev": "7cf4ce045a7aaff3e993bf0a8a0bdb56ad48c840",
-  "head": "51a90485fc21ecfc2bc8ae1cdc05f41ece99e531",
+  "prev": "dcf1aa35257ab5f6bfb952545ef06e92120b44ee",
+  "head": "65f9cf550f66f29c2f1a1f4bc493297d720dd523",
   "applied": [
     "torchlocal",
     "nodownload",
     "gccbug-newxx",
     "include",
     "stdfmt",
-    "clang"
-  ],
-  "unapplied": [
+    "clang",
     "pandora",
     "depr"
   ],
+  "unapplied": [],
   "hidden": [
     "ci"
   ],
@@ -25,7 +24,7 @@
       "oid": "51a90485fc21ecfc2bc8ae1cdc05f41ece99e531"
     },
     "depr": {
-      "oid": "5568bd88609706c318b2cc22099f946e53151517"
+      "oid": "65f9cf550f66f29c2f1a1f4bc493297d720dd523"
     },
     "gccbug-newxx": {
       "oid": "cf8ea8e6d576b4e1e05f832ae45c838703ccc876"
@@ -37,7 +36,7 @@
       "oid": "7d02082d55698ed8551b3a983daca7fb288697b3"
     },
     "pandora": {
-      "oid": "50b89b5263ccd7e10b58975856fb607cbce114c3"
+      "oid": "b35dcf53c3a461064b5ff2e73d1da264b9d9eb48"
     },
     "stdfmt": {
       "oid": "7f90ad196780951f7a05375ac69d4ebe8943792a"
