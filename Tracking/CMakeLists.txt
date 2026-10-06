@@ -30,6 +30,10 @@ file(GLOB headers
   ${PROJECT_SOURCE_DIR}/include/genfit_interfaces/*.h
 )
 
+# torch clobbers the c++ standard.  Use this to clobber back.
+add_library (dum INTERFACE)
+target_compile_options(dum INTERFACE "--std=c++${CMAKE_CXX_STANDARD}")
+
 gaudi_add_module(${PackageName}
   SOURCES ${sources}
   LINK
@@ -46,6 +50,7 @@ gaudi_add_module(${PackageName}
   GenFit::genfit2
   Eigen3::Eigen
   ${DELPHES_LIBRARIES}
+  dum
 )
 
 if(TARGET PandoraPFA::PandoraSDK)
