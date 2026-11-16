@@ -225,8 +225,8 @@ private:
    */
   struct HitRef {
     HitType type;
-    int index;  // Index of hit within collection.
-    unsigned collIndex;  // Index of collection within the list of sources.
+    int index;          // Index of hit within collection.
+    unsigned collIndex; // Index of collection within the list of sources.
     // n.b. Can't use collectionID here because that's not assigned until
     // the collection is written.
   };
