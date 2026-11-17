@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "fc84674e417110d8311a6bed7a2f04931ab90f0d",
-  "head": "f9fc85b0f45c171d144ee4aed612227efee3b61d",
+  "prev": "5cabdc1374af7209b3978f7648305f078a1e5435",
+  "head": "f19b63d7e159193946fcb3635de38b1601880f6d",
   "applied": [
     "torchlocal",
     "nodownload",
@@ -10,8 +10,7 @@
     "stdfmt",
     "clang",
     "pandora",
-    "collid",
-    "refresh-temp"
+    "collid"
   ],
   "unapplied": [],
   "hidden": [
@@ -22,28 +21,25 @@
       "oid": "46ae46405a3ca14fe3d8ec27fcc3ff3ffb0caa93"
     },
     "clang": {
-      "oid": "f5da58d43e70e0a93147a5f3cfd9354d8537fb46"
+      "oid": "b0389d90aec9ff3ca2c92056841f4015cda6526b"
     },
     "collid": {
-      "oid": "b5773d4b9cf27b2b4c57bc661d051a308fab0d9a"
+      "oid": "f19b63d7e159193946fcb3635de38b1601880f6d"
     },
     "gccbug-newxx": {
-      "oid": "de0b0abb39c606b3a88c15eb6a1cf76bbbcd8c6c"
+      "oid": "f047281a74a3841123e24db4beb9c9c94633df8b"
     },
     "include": {
-      "oid": "1bf5db5d69e6a1582e5f1a4f5c054da288e6fec0"
+      "oid": "609da069954e82b3ab4235f0b98db7da05c652ee"
     },
     "nodownload": {
-      "oid": "39261c2f59818fe46f9faccf0d40dde7746be9ed"
+      "oid": "03084d9293af09dc1db048547e350c874da63d73"
     },
     "pandora": {
-      "oid": "3445ca5de41ee5e8867cd602ca2a36cdb6408906"
-    },
-    "refresh-temp": {
-      "oid": "f9fc85b0f45c171d144ee4aed612227efee3b61d"
+      "oid": "5e415d169a4dd9c625da7db88be47272dddc8163"
     },
     "stdfmt": {
-      "oid": "5cf798fd9915b0d09cb948e1878b514a2f270327"
+      "oid": "9c018c2150631e69c3a7c7ff6ab77c202c9af727"
     },
     "torchlocal": {
       "oid": "360ceaef0cf634022509ff5c9f7c6e33ecf182fd"
