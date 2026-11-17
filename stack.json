@@ -1,15 +1,15 @@
 {
   "version": 5,
-  "prev": "e770a755adfb091d5a7e66d16f8a9589095f982a",
-  "head": "360ceaef0cf634022509ff5c9f7c6e33ecf182fd",
+  "prev": "2c5acbffb11ab30aa912da52819d6eeda27d7b3d",
+  "head": "59e4253890a97c5c411cfe00f132599ce132ecab",
   "applied": [
-    "torchlocal"
-  ],
-  "unapplied": [
+    "torchlocal",
     "nodownload",
     "gccbug-newxx",
     "include",
-    "stdfmt",
+    "stdfmt"
+  ],
+  "unapplied": [
     "clang",
     "pandora"
   ],
@@ -24,19 +24,19 @@
       "oid": "51a90485fc21ecfc2bc8ae1cdc05f41ece99e531"
     },
     "gccbug-newxx": {
-      "oid": "cf8ea8e6d576b4e1e05f832ae45c838703ccc876"
+      "oid": "de0b0abb39c606b3a88c15eb6a1cf76bbbcd8c6c"
     },
     "include": {
-      "oid": "dc6f855b2e7f4d2f39922aa772eb241de7a9cc54"
+      "oid": "1bf5db5d69e6a1582e5f1a4f5c054da288e6fec0"
     },
     "nodownload": {
-      "oid": "7d02082d55698ed8551b3a983daca7fb288697b3"
+      "oid": "39261c2f59818fe46f9faccf0d40dde7746be9ed"
     },
     "pandora": {
       "oid": "b35dcf53c3a461064b5ff2e73d1da264b9d9eb48"
     },
     "stdfmt": {
-      "oid": "7f90ad196780951f7a05375ac69d4ebe8943792a"
+      "oid": "59e4253890a97c5c411cfe00f132599ce132ecab"
     },
     "torchlocal": {
       "oid": "360ceaef0cf634022509ff5c9f7c6e33ecf182fd"
