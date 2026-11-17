@@ -1,14 +1,13 @@
 {
   "version": 5,
-  "prev": "cafb06c6204dd8f976c457615d18f5c1bc9cf07f",
-  "head": "b05e3dada9a07a7648acbb4bce4c5bac53267c41",
+  "prev": "06a2b769472f5b83aaadc36959d3684f2f59498a",
+  "head": "c690c6834eaf5a3c7cc9d08ed7e9d078ee29f34b",
   "applied": [
     "torchlocal",
     "nodownload",
     "gccbug-newxx",
     "include",
-    "stdfmt",
-    "refresh-temp"
+    "stdfmt"
   ],
   "unapplied": [
     "clang",
@@ -36,11 +35,8 @@
     "pandora": {
       "oid": "b35dcf53c3a461064b5ff2e73d1da264b9d9eb48"
     },
-    "refresh-temp": {
-      "oid": "b05e3dada9a07a7648acbb4bce4c5bac53267c41"
-    },
     "stdfmt": {
-      "oid": "59e4253890a97c5c411cfe00f132599ce132ecab"
+      "oid": "c690c6834eaf5a3c7cc9d08ed7e9d078ee29f34b"
     },
     "torchlocal": {
       "oid": "360ceaef0cf634022509ff5c9f7c6e33ecf182fd"
