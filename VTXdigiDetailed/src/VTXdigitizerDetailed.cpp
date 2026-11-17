@@ -318,7 +318,7 @@ void VTXdigitizerDetailed::CheckNormalVectorLocal(const edm4hep::SimTrackerHit& 
   if (m_LocalNormalVectorDir == "") {
     m_LocalNormalVectorDir = LocalNormalVectorDir;
   } else if (LocalNormalVectorDir != m_LocalNormalVectorDir) {
-    throw std::runtime_error(fmt::format("VTXdigitizerDetailed: local normal vector direction {} for system {} differs "
+    throw std::runtime_error(std::format("VTXdigitizerDetailed: local normal vector direction {} for system {} differs "
                                          "from direction {} of the other sub-detectors of {}",
                                          LocalNormalVectorDir, systemID, m_LocalNormalVectorDir,
                                          m_detectorName.value()));
