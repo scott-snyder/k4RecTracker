@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "4b25509d2a4f3ec6df38c53571a8c9a50145809f",
-  "head": "0fc726f34b8fdf18199332083294cd9892df2bda",
+  "prev": "559a561084a099aa2b28e847d37adba822999a7f",
+  "head": "d27ecf69dc6973c4c5d07b784a2178d0be5cf42a",
   "applied": [
     "torchlocal",
     "nodownload",
@@ -9,7 +9,8 @@
     "include",
     "stdfmt",
     "clang",
-    "pandora"
+    "pandora",
+    "collid"
   ],
   "unapplied": [],
   "hidden": [
@@ -21,6 +22,9 @@
     },
     "clang": {
       "oid": "edb2cc57992f12cf990be761138e8abbb0bd4854"
+    },
+    "collid": {
+      "oid": "d27ecf69dc6973c4c5d07b784a2178d0be5cf42a"
     },
     "gccbug-newxx": {
       "oid": "de0b0abb39c606b3a88c15eb6a1cf76bbbcd8c6c"
