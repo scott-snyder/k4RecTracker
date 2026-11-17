@@ -1,10 +1,11 @@
 {
   "version": 5,
-  "prev": "04f455bbfd4c1700ea7d6f9cbf1b7a57771244a6",
-  "head": "c1cceda0c74f62e1451b2a41282ca9e23fa88bfd",
-  "applied": [],
+  "prev": "68e1917ef8d11c70373acf1f08c3c9806f91aa67",
+  "head": "31634daf809ee9067669ccc8cae8dc75b921e0b3",
+  "applied": [
+    "torchlocal"
+  ],
   "unapplied": [
-    "torchlocal",
     "nodownload",
     "gccbug-newxx",
     "include",
@@ -38,7 +39,7 @@
       "oid": "7f90ad196780951f7a05375ac69d4ebe8943792a"
     },
     "torchlocal": {
-      "oid": "433cbddabb565427d8aec51fcbde78ebd2db795d"
+      "oid": "31634daf809ee9067669ccc8cae8dc75b921e0b3"
     }
   }
 }
