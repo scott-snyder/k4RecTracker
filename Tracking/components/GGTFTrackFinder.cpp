@@ -225,7 +225,7 @@ private:
    */
   struct HitRef {
     HitType type;
-    int index;          // Index of hit within collection.
+    unsigned index;     // Index of hit within collection.
     unsigned collIndex; // Index of collection within the list of sources.
     // n.b. Can't use collectionID here because that's not assigned until
     // the collection is written.
@@ -316,7 +316,7 @@ private:
         featureOut[6] = 0.0F;
         featureOut += kFeatureCount;
 
-        workspace.hitRefs.push_back({HitType::Planar, hit.id().index, collIndex});
+        workspace.hitRefs.push_back({HitType::Planar, static_cast<unsigned>(hitIndex), collIndex});
       }
       ++collIndex;
     }
@@ -373,7 +373,7 @@ private:
         featureOut[6] = static_cast<float>(2.0 * distanceToWire * xPrimeZ);
         featureOut += kFeatureCount;
 
-        workspace.hitRefs.push_back({HitType::Wire, hit.id().index, collIndex});
+        workspace.hitRefs.push_back({HitType::Wire, static_cast<unsigned>(hitIndex), collIndex});
       }
       ++collIndex;
     }
