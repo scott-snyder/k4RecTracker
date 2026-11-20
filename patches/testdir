@@ -1,0 +1,9 @@
+Bottom: 1bb36b970cca3d0043cc752228fca383f7171f26
+Top:    1bb36b970cca3d0043cc752228fca383f7171f26
+Author: sss <sss@karma>
+Date:   2026-11-20 10:02:11 -0500
+
+Run WireTrackerDigi tests in the build dir, not the source dir.
+
+These tests were dropping data files into the source tree,
+which is something that should never be done.

@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "5cabdc1374af7209b3978f7648305f078a1e5435",
-  "head": "f19b63d7e159193946fcb3635de38b1601880f6d",
+  "prev": "0257a04171a69c4d7d4fa2b0f909e106894dbfbd",
+  "head": "4b1538de23ca85c40a98752ad3a1e933915802ce",
   "applied": [
     "torchlocal",
     "nodownload",
@@ -10,21 +10,19 @@
     "stdfmt",
     "clang",
     "pandora",
-    "collid"
+    "collid",
+    "testdir"
   ],
   "unapplied": [],
   "hidden": [
     "ci"
   ],
   "patches": {
-    "ci": {
-      "oid": "46ae46405a3ca14fe3d8ec27fcc3ff3ffb0caa93"
+    "torchlocal": {
+      "oid": "360ceaef0cf634022509ff5c9f7c6e33ecf182fd"
     },
-    "clang": {
-      "oid": "b0389d90aec9ff3ca2c92056841f4015cda6526b"
-    },
-    "collid": {
-      "oid": "f19b63d7e159193946fcb3635de38b1601880f6d"
+    "nodownload": {
+      "oid": "03084d9293af09dc1db048547e350c874da63d73"
     },
     "gccbug-newxx": {
       "oid": "f047281a74a3841123e24db4beb9c9c94633df8b"
@@ -32,17 +30,23 @@
     "include": {
       "oid": "609da069954e82b3ab4235f0b98db7da05c652ee"
     },
-    "nodownload": {
-      "oid": "03084d9293af09dc1db048547e350c874da63d73"
+    "stdfmt": {
+      "oid": "9c018c2150631e69c3a7c7ff6ab77c202c9af727"
+    },
+    "clang": {
+      "oid": "b0389d90aec9ff3ca2c92056841f4015cda6526b"
     },
     "pandora": {
       "oid": "5e415d169a4dd9c625da7db88be47272dddc8163"
     },
-    "stdfmt": {
-      "oid": "9c018c2150631e69c3a7c7ff6ab77c202c9af727"
+    "collid": {
+      "oid": "f19b63d7e159193946fcb3635de38b1601880f6d"
     },
-    "torchlocal": {
-      "oid": "360ceaef0cf634022509ff5c9f7c6e33ecf182fd"
+    "testdir": {
+      "oid": "4b1538de23ca85c40a98752ad3a1e933915802ce"
+    },
+    "ci": {
+      "oid": "46ae46405a3ca14fe3d8ec27fcc3ff3ffb0caa93"
     }
   }
 }
