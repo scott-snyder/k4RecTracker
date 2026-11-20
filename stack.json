@@ -1,7 +1,7 @@
 {
   "version": 5,
-  "prev": "0257a04171a69c4d7d4fa2b0f909e106894dbfbd",
-  "head": "4b1538de23ca85c40a98752ad3a1e933915802ce",
+  "prev": "e512aa78ef4d1b1b88a91da776b7e5ae79137a39",
+  "head": "0c8eb862b6dc7948e3ec2222b7727cb8b3aed440",
   "applied": [
     "torchlocal",
     "nodownload",
@@ -11,7 +11,8 @@
     "clang",
     "pandora",
     "collid",
-    "testdir"
+    "testdir",
+    "refresh-temp"
   ],
   "unapplied": [],
   "hidden": [
@@ -44,6 +45,9 @@
     },
     "testdir": {
       "oid": "4b1538de23ca85c40a98752ad3a1e933915802ce"
+    },
+    "refresh-temp": {
+      "oid": "0c8eb862b6dc7948e3ec2222b7727cb8b3aed440"
     },
     "ci": {
       "oid": "46ae46405a3ca14fe3d8ec27fcc3ff3ffb0caa93"
