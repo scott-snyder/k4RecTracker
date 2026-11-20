@@ -1,15 +1,9 @@
 {
   "version": 5,
-  "prev": "82722d0272a1dec2dcf27bc021ee16a59c938677",
-  "head": "60a53990e1d0eef47d58e7fc3f0e0555b0e9e28c",
-  "applied": [
-    "collid"
-  ],
+  "prev": "751da2024af47e2cff0bcd11a4efdbb8de10518a",
+  "head": "874678a280ca8f2dd371dc104bc6df8614ce253d",
+  "applied": [],
   "unapplied": [],
   "hidden": [],
-  "patches": {
-    "collid": {
-      "oid": "60a53990e1d0eef47d58e7fc3f0e0555b0e9e28c"
-    }
-  }
+  "patches": {}
 }
