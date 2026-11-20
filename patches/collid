@@ -1,5 +1,5 @@
 Bottom: 6c70f693ce84834db1ec1e73f7941df237bfe3e2
-Top:    97ac931ed545987af4d885677536bd719800ef3b
+Top:    f7bb99ad8853cc044d3f420d2900eef4d449a4f2
 Author: scott snyder <snyder@bnl.gov>
 Date:   2026-11-16 16:30:01 -0500
 
@@ -10,3 +10,5 @@ we cannot in general use them to distinguish collections in
 digitization/reconstruction.  Rework GGTFTrackFinder to use the index
 in the input collection sequence rather than collectionID to identify
 collections.  Fixes test failures for ALLEGRO and IDEA seen in FCC-config.
+
+collid2
